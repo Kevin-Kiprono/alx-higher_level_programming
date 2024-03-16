@@ -4,5 +4,5 @@ def add(a, b):
 
 result = add(1, 2)
 
-print(result)
+print("{} + {} = {}".format(1, 2, result))
 
