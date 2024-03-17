@@ -1,8 +1,11 @@
 #!/usr/bin/python3
-def add(a, b):
-    return a + b
+if __name__ == "__main__":
+    """print the sum of 1 and 2."""
+from add_0 import add
 
-result = add(1, 2)
+a = 1
+b = 2
 
-print("{} + {} = {}".format(1, 2, result))
+result = add(a, b)
+print("{} + {} = {}".format(a, b, result))
 
