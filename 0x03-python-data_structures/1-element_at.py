@@ -8,10 +8,9 @@ def element_at(my_list, idx):
     you are not allowed to import any module
     you are not allowed to use try/except
     """
-    if my_list:
-        if idx < 0:
-            return None
-        elif idx >= len(my_list):
-            return None
+    if idx > len(my_list)-1 or idx < 0:
+        return None
+    else:
+        return my_list[idx]
         else:
             return my_list[idx]
