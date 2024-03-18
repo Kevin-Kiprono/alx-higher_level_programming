@@ -1,6 +1,6 @@
 #!usr/bin/python3
 
-def element_at(my_list,idx):
+def element_at(my_list, idx):
     """retrieve element function
 
     if idx is negative, the function should return none
