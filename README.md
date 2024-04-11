@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+.0x01. Python - if/else, loops, functions
+=======
 
 n - Hello, World
 Python
@@ -482,3 +485,4 @@ int main(void)
 carrie@ubuntu:~/0x00$ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 10-main.c 10-check_cycle.c 10-linked_lists.c -o cycle
 carrie@ubuntu:~/0x00$$ ./cycle 
 i
+>>>>>>> 5e582132620a3666af2406bb0815120658cbf128
